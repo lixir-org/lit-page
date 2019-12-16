@@ -1,61 +1,250 @@
-@media only screen and (min-width: 961px){
-    html{
+@media only screen and (max-width: 768px)  {
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow-x: hidden;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .header2{
+        background-image:none;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size:contain; 
+        height: 650px;
+        padding: 0 15em 0 0;
+    }
+
+    .header2text{
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        font-weight: bolder;
+        margin-left:7.5em;
+        flex-wrap: wrap;
+       
+    }
+    
+    
+    .header3{  
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;  
+        text-align: center; 
+        padding:0 2em 0 2em;
+        
+    }
+    
+    .header3:after {
+        content: "";  
+        display: block; 
+        margin: 0 auto;
+        width: 30%; 
+        padding-top: 1px; 
+        border-bottom: 2px solid #333333;
+    }
+    .name{
+        text-align: center;
+     }
+    .ourFeature{
+        padding-top:1em;
+        font-family: 'poppins';
+        line-height: 100.62%;
+        font-size: 15px;
+        font-weight: bold;
+        flex-wrap: wrap;
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+   
+    .ourFeature:after {
+        content: ""; /* This is necessary for the pseudo element to work. */ 
+        display: block; /* This will put the pseudo element on its own line. */
+        margin: 0 auto; /* This will center the border. */
+        width: 12%; /* Change this to whatever width you want. */
+        padding-top: 5px; /* This creates some space between the element and the border. */
+        border-bottom: 2px solid #333333;
+    }
+    .button{
+        background: #0580B9;
+        color:#fff;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+        border-radius: 3px;
+        display: block;
+        width: 10em;
+        color:#fff;
+        font-weight: bold;
+        border-color:#0580B9 ;
+      }
+     #button{
+        background: #0580B9;
+        color:#fff;
+        box-sizing: border-box;
+        text-align: center;
+        justify-content: center;
+        font-size: 1em;
+        margin-bottom: 2em;
+        border-radius: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+        color:#fff;
+        font-weight: bold;
+        border-color:#0580B9 ;
+      }
+      
+   
+      .container{
+        display:grid;
+        grid-template-rows: 1fr;
+        cursor:pointer;  
+       }
+
+    .eachImage{
+        padding: 1em 2em 1em 2em;
+    }
+    .container:first-child{
+        display:hidden;
+    }
+    .container:last-child{
+        display:hidden;
+    }
+
+    .eachImage{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+
+   
+    }
+
+   .form{
+        padding:2em; 
+    }
+
+    .section2{
+        background-image:none;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color:#0580B9;  
+    }
+    .card {
+        -webkit-box-shadow: 3px 4px 5px 6px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+       -moz-box-shadow:    3px 4px 5px 6px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
+         box-shadow:         3px 4px 5px 6px rgba(0,0,0,0.2); 
+        transition: 0.3s;
+        width: 106%;
+        height: 28em;
+        border-radius: 5px;
+        background: #fff;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:0.2em;
+    }
+      
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      input,textarea{
+        text-align: start;
+        border-style: groove;
+        border:1.5px solid #000000;
+        border-radius:3px;
+        box-sizing:border-box;
+       justify-content: center;
+   }
+
+    .elements{
+        padding:2em;
+        text-align: center;
+    }
+      
+}
+
+
+
+@media only screen and (min-width: 768px){
+    html,body{
     font-family:'Poppins', Courier, monospace;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
     }
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-      a:link{
-      text-decoration: none;
-       color: inherit;
-      cursor:pointer;
-      }
-    
-    body{
-        background: #e8e8e8 ;
-        background-size:100%;
-        width:100%;
-        height:100%;
-        }
-    
-        p,h1,h2,h3,h4,h5,h6{
-            padding:0px;
-            margin:0px;
-            font-family:'Poppins', Courier, monospace;
-         }
 
-           
+      a:link{
+       text-decoration: none;
+       color: inherit;
+       cursor:pointer;
+      }
+
+        p,h1,h2,h3,h4,h5,h6{
+            padding:0;
+            margin:0;
+            font-family:'Poppins', Courier, monospace;
+        }
+
         .header2{
-            background-image:url('images/headerImage.png'),url('images/Ellipse.png');
+            background-image:url("img/header.png");
             background-repeat: no-repeat;
             background-position:right;
-            background-size:cover,contain;
-            height: 450px; 
-            padding-bottom: 5em;
+            background-size:contain;
+            height: 550px; 
+            padding: 5em 0 5em 0;
         }
+
         .header2text{
             position: relative;
             float: left;
-            top: 90%;
+            top: 70%;
             left: 20%;
             transform: translate(-50%, -50%);
             font-weight: bolder;
+            margin-left:5em;
+            flex-wrap: wrap;
+           
         }
         
         .header3{
-            padding-top: 20em;
-            text-align:center;    
+            padding-top: 5em;  
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;  
+            text-align: center; 
         }
     
         .ourFeature{
             text-align:center;
             font-family: 'poppins';
-            line-height: 140.62%;
-            font-size: 48px;
+            line-height: 100.62%;
+            font-size: 40px;
             font-weight: bold;
             text-align: center;
+            
+
         }
         .ourFeature:after {
             content: ""; /* This is necessary for the pseudo element to work. */ 
@@ -67,25 +256,25 @@
         }
        
         .section1-container{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto;
             cursor:pointer;
-            display:flex;
             padding-bottom:0.1em ;
           
            }
     
         .eachImage{
-            flex: 1;
-            padding: 5em;
+            padding: 5em 5em 2em 5em;
         }
         .eachImage:after {
-            content: ""; /* This is necessary for the pseudo element to work. */ 
-            display: block; /* This will put the pseudo element on its own line. */
-            margin: 0 auto; /* This will center the border. */
-            width: 10%; /* Change this to whatever width you want. */
-            padding-top: 10px; /* This creates some space between the element and the border. */
-           
-            
+            content: ""; 
+            display: block; 
+            margin: 0 auto; 
+            width: 10%;
+            padding-top: 10px;
         }
+
         .than{
             padding-top:10em;
         }
@@ -94,40 +283,42 @@
             text-align:center;
         }
        .text{
-            font-weight: bolder;
-            content: ""; /* This is necessary for the pseudo element to work. */ 
-            display: block; /* This will put the pseudo element on its own line. */
-            margin: 0 auto; /* This will center the border. */
-            width: 10%; /* Change this to whatever width you want. */
-            padding-top: 20px; /* This creates some space between the element and the border. */
-            padding-right: 3em;
+        position: relative;
+        float: left;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 2em;
+       
         }
-        .satya{
-            text-align: center;
-        }
+       
         .satya:after {
             content: ""; /* This is necessary for the pseudo element to work. */ 
             display: block; /* This will put the pseudo element on its own line. */
             margin: 0 auto; /* This will center the border. */
-            width: 30%; /* Change this to whatever width you want. */
+            width: 20%; /* Change this to whatever width you want. */
             padding-top: 20px; /* This creates some space between the element and the border. */
-            border-bottom: 2px solid #333333;
-            
+            border-bottom: 2px solid #333333;  
+        }
+        .name{
+           text-align: center;
         }
         
         
         .section2{
-            background-image: url('images/background.png');
+            background-image: url("img/background.png");
             background-repeat: no-repeat;
             background-size:cover,contain;
             height: 500px;
+            background-color:#0580B9;
         }
     
         .form{
             padding:2.5em 2em 2em 60em; 
         }
       
-        
             .card {
                 -webkit-box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
                -moz-box-shadow:    3px 3px 5px 6px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
@@ -173,149 +364,25 @@
                     font-size: 1em;
                     border-radius: 8px;
                     display: block;
-                    width: 14%;
+                    width: 13em;
                     color:#fff;
                     font-weight: bold;
                     border-color:#0580B9 ;
                   }
     
-            input{
+            input,textarea{
                  text-align: start;
                  border-style: groove;
-                 border:1px solid #000000;
+                 border:1.5px solid #000000;
                  border-radius:3px;
                  box-sizing:border-box;
                 justify-content: center;
-            
-        }
+            }
+
         .elements{
-            padding:0.1em 5em 1em 56em;
+            padding:1em 2em 1em 2em;
             text-align: center;
         }
         
     }
     
-        @media only screen and  (max-width: 740px){
-            
-            body{
-                overflow-x: hidden;
-            }
-           
-            .than{
-                display: hidden;
-            }
-            .header2text{
-                position: relative;
-                float: left;
-                top: 50%;
-                left: 30%;
-                transform: translate(-50%, -50%);
-                font-weight: bolder;
-            }
-            .header2{
-                background-image:url("images/headerImage.png") ;
-                background-repeat: no-repeat;
-                background-size:contain;
-                padding: 1em 0 0 3em;
-            }
-          
-            .textInHeader{
-                padding:22em 0 0 8em;  
-            }
-            .button{
-                width:13em;
-            }
-            .header3{
-                padding: 1em 0 0 0;
-                text-align:center;
-            }
-            .ourFeature{
-                text-align:center;
-                font-family: 'poppins';
-                line-height: 100.62%;
-                font-size: 30px;
-                font-weight: bold;
-            }
-            .section1Container{
-                flex-direction: row;
-            }
-            .eachImage{
-           
-            flex: 100%;
-            max-width: 100%;
-           margin-left: auto;
-           margin-right: auto;
-           list-style: none;
-            }
-            
-            .headerContainer{
-                background: #e8e8e8 ;  
-            }
-            
-            .form{
-                padding:2.5em 2em 2em 2em; 
-            }
-            .section2{
-                background-image:url("images/background.png") ;
-                background-repeat: no-repeat;
-                background-size:cover,contain;
-                background-color:#0580B9;
-               
-            }
-            .elements{
-                padding:5em 7em 1em 5em;
-                text-align: center;
-            }
-              
-        }
-    
-      
-        @media only screen and (min-width: 1px) and (min-width: 400px) {
-            body{
-                overflow-x: hidden;
-            }
-            .textInHeader{
-                padding:30em 0 5em 10em;  
-            }
-          .header2{
-            background-image:url("images/headerImage.png");
-            background-repeat: no-repeat;
-            background-size: contain;   
-        }
-    
-        .form{
-            padding:2.5em 2em 2em 2em; 
-        }
-        .button{
-            width:13em;
-        }
-        .header3{
-            padding: 1em 0 0 0;
-            text-align:center;
-        }
-        .ourFeature{
-            text-align:center;
-            font-family: 'poppins';
-            line-height: 100.62%;
-            font-size: 30px;
-            font-weight: bold;
-        }
-        .section1Container{
-            display: block;
-        }
-        .eachImage{
-            display:block;
-            max-width: 100%;
-           list-style: none;
-          }
-    
-        .headerContainer{
-            background: #e8e8e8 ;  
-        }
-      .section2{
-        background-image:url("images/background.png") ;
-                background-repeat: no-repeat;
-                background-size:contain,cover;
-              
-      }
-    }
