@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> 
-    <link rel="stylesheet" href="css/site_footer.css"/>
+       <link rel="stylesheet" href="./css/style.css" />
+       <link rel="stylesheet" href="css/site_footer.css"/>
     <link rel="stylesheet" href="./css/menu.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
   </head>
@@ -22,7 +23,7 @@
 
     <nav>
       <div class="nav-logo">
-        <img src="image/lixir_logo.png" class="logo" alt="logo" width="70%" />
+        <img src="images/lixir_logo.png" class="logo" alt="logo" width="70%" />
       </div>
       <div class="burger">
         <div class="line1"></div>
@@ -38,7 +39,8 @@
       </div>
     </nav>
 
-    <div class="header2">
+    <section>
+    <div class="header2" style="background-image: url('img/header.png'),url(img/ellipse.png);">
         <span class="header2text">
           <h2>LIXIR<h2>
           <h3> GIVING LIFE TO YOUR PROJECTS...</h3>
@@ -46,72 +48,85 @@
           </span>
       </div>
   
-       <div class="header3">
-        <p class="satya">
-              "Information technology is at the core of how your business model itself evolves"
-        </p> 
-          <p class="text">Satya Nadella 
-          </p><br>
-       </div>
-       <br><br><br>
+       <span class="header3">
+        <p>"Information technology is at the core of how your business model itself evolves"</p><br> 
+         <span class="name">Satya Nadella </span>
+       <span>
+         
+     </section>
 
-<section>
-<h1 class="ourFeature">OUR FEATURED WORKS</h1>
-
-<div class="section1">
-
-<div class="section1-container">
+      <section>
+        <h2 class="ourFeature">OUR FEATURED WORKS</h2>
+ <div class="container">
    <div class="eachImage than"><i class="fas fa-less-than" alt="greater-than" height="50" width="50"></i></div>
-   <div class="eachImage img"><img src="images/malthisi.jpg" alt="malthisi" height="150" width="150"><br>
+   <div class="eachImage img"><img src="images/malthisi.jpg" alt="malthisi" height="150" min-width="50"><br>
        <span class="text">Mathisi Mini-Classroom</span></div>
-   <div class="eachImage img"><img src="images/buzzdona.jpg" alt="buzz-dona" height="150" width="150" ><br>
+   <div class="eachImage img"><img src="images/buzzdona.jpg" alt="buzz-dona" height="150" min-width="50" ><br>
        <span class="text">Buzz Donna</span></div>
-   <div class="eachImage img"><img src="images/lixir2.jpg" alt="lixir" height="150" width="150"><br>
+   <div class="eachImage img"><img src="images/lixir2.jpg" alt="lixir" height="150" min-width="50"><br>
        <span class="text">Lixir</span></div>
    <div class="eachImage than"><i class="fas fa-greater-than" alt="greater-than" height="50" width="50"></i></li></div>
 </div>
 </div>
+</section>
 
-<div class="section2">
+<section>
+<div class="section2" style="background-image: url('img/background.png');">
        <form action="" method="post" class="elements">
-       <div class="form">  
-        <div class="card">
+        <div class="form">  
+          <div class="card">
        <h3 class="contactus">Contact Us</h3><br>
-       
+      
           <label for="name"></label>
         <input type="text" placeholder="Name" id="name" name="name" required
-        minlength="4" maxlength="15" size="25" height="15"><br><br>
+        minlength="4" maxlength="25" size="25" height="15"><br><br>
 
         <label for="email"></label>
         <input type="email" placeholder="Email" id="email" name="email" required
-        minlength="4" maxlength="15" size="25"  height="15"><br><br>
+        minlength="4" maxlength="25" size="25"  height="15"><br><br>
 
         <label for="description"></label>
         <textarea  rows="5" cols="27"  id="Description" required placeholder="Description"></textarea><br><br>
         <input id="button" type="submit" value="Submit">
        </div>
     </div>
-  
-</div>
-</form>
+  </form>
+  </div>
 </section>
 
 
 <footer>
-          <footer class="mt-5">
+            <footer class="mt-5">
             <section class="footer_content mx-auto text-center">
                 <section class="footer_content--one">
                     <a href="about_us.php" class="">About Us</a>
-                    <a href="index.php" class="mx-5"> <img src="image/footer_logo.png" alt="" width="100px"
+                    <a href="index.php" class="mx-5"> <img src="images/footer_logo.png" alt="" width="100px"
                             height="100px"></a>
                     <a href="contact.php" class="">Contact Us</a>
                 </section>
+
                 <section class="footer_content--two pt-4">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-google-plus-g"></i></a>
                     <a href=""><i class="fab fa-instagram"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
                 </section>
-            </section>
-        </footer>
+            
+</footer>
 
+<script src="./js/app.js"></script>
+<script>
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+</script>
+ 
+</body>
+</html>
