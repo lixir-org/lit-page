@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover, button:hover {
+  opacity: .7;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.form {
+  border: 1px solid #0580b9;
+  -webkit-box-shadow: 1px 1px 3px #0580b9;
+          box-shadow: 1px 1px 3px #0580b9;
+  margin: 30px auto;
+  min-width: 320px;
+  max-width: 600px;
+  padding: 20px 20px;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #0580b9;
+  font-weight: bold;
+}
+
+.form-container .form-group label {
+  display: block;
+  font-size: 18px;
+  margin: 10px 0;
+  color: #0580b9;
+}
+
+.form-container .form-group input, .form-container .form-group textarea {
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.form-container button {
+  display: block;
+  margin: 20px auto;
+  background-color: #0580b9;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #0580b9;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.form-container button:hover {
+  background-color: transparent;
+  color: #0580b9;
+  -webkit-box-shadow: 1px 1px 5px #0580b9;
+          box-shadow: 1px 1px 5px #0580b9;
+}
+/*# sourceMappingURL=contact-us.css.map */
