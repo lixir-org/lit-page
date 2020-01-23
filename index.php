@@ -62,18 +62,16 @@
                         <aside>
                             <img src="images/Vector (6).png" alt="software development">
                             <h4>Software Development</h4>
-                            <p>We are all about software solutions,
-                                we are highly skilled in the business
-                                of creating Internet-based applications,
-                                mobile applications, consultancy services,
-                                systems integration. We believe in world-class software solutions that suit
+                            <p>We are a technology first comapny with focus on software solutions,
+                                Internet-based applications,
+                                mobile applications, consultancy services and
+                                systems integration. We build world-class software solutions for 
                                 organizational backlogs.</p>
                         </aside>
                         <aside>
                             <img src="images/Vector (5).png" alt="web Design">
-                            <h4>Web Design</h4>
-                            <p>Responsive and mobile web design
-                                Web app UI design
+                            <h4>Web Devolopment</h4>
+                            <p>Web api,app UI/UX design
                                 Company and product sites
                                 Website reviews</p>
                         </aside>
@@ -87,7 +85,7 @@
                         <aside>
                             <img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
-                            <p>Content strategy,
+                            <p>Digital Content Creation and strategy,
                                 Digital copywriting
                                 Tone of voice. Content reviews.</p>
                         </aside>
@@ -106,7 +104,11 @@
                                     <img src="images/malthisi.jpg" alt="mathisi">
                                 </div>
                                 <p>Mathisi Mini Classroom</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, rerum!</p>
+
+<p>Mathisi Mini Classroom is a virtual learning platform for focused studies.
+Majorly important subjects High School Students must be excellent at in other to excel and to move to the next class or write School Certificate Exams at Junior and Senior Levels. 
+All the subjects on Mathisi are based on the Nigerian National Secondary School Curriculum and have been vetted to ensure that only the highest teaching standards are deployed on the platform.
+</p>
                                 <a href="mathisi-classroom/index.html">View Project</a>
 
                             </div>
@@ -114,7 +116,7 @@
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, rerum!</p>
+                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for enterprise</p>
                                 <a href="">View Project</a>
                             </div>
 
@@ -133,7 +135,7 @@
                         <img src="images/team/team0.png" alt="user1">
                         <span>
                             <p>Godwin <br> Ikott</p>
-                            <p>CEO</p>
+                            <p>Founder</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
