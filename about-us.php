@@ -24,28 +24,25 @@
         <div class="profile">
             <h2 class="">Company Profile</h3>
                 <p class="">
-                    Lixir is technology first company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
+                    Lixir is technology forward company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
                 </p>
-                <p >We are a company poised with three things at it core;
+                <p >We are a company poised with these core things at it nucleus;
                     <ol class="core-values">
                         <li>Innovative tech solutions to enhance the way we live, work & play</li>
-                        <li>Optimize/disrupt business operations to enhance growth and </li>
+                        <li>Efficiency innovations to optimize business operations, enhance growth and </li>
                         <li>Reduce/eliminate friction between businesses and people.</li>
                     </ol>
                 </p>
-                <p> We are a glocal team with technological innovation and human expertise adding value to the
-                    burgeoning human needs. </p>
+                <p> We are a distributed glocal team with technological innovations and human expertise deployed to position the continent in the global market value to the
+                    </p>
                 <aside class="card">
-                    <h3>Our Goal</h3>
-                    <p class="">Our goal is to build a community of talents that will create valuable solution oriented
-                        products for people and businesses to thrive.</p>
+                    <h3>Our Mission</h3>
+                    <p class="">To augment the standcard of livivng, ease of doing business and to create shared prosperity in the continent between the supplychain
+                      and the burgeoning demand side with the use of radical and incremental innovative technologies.              
+                    </p>
                 </aside>
 
-                <aside class="card">
-                    <h3>Our Vision</h3>
-                    <p> Augment the standard of living and ease of doing busines in the continent with the
-                        use technology. </p>
-                </aside>
+              
         </div>
         <div class="services">
             <h1>What We Do</h1>
@@ -56,16 +53,16 @@
                     <hr class="title">
 
                     <p>
-                        We are all about software solutions,
-                        we are highly skilled in the business
-                        of creating Internet-based applications,
+                        We are a technology first company with focus
+                        on innovativ software solutions, 
+                        for early stage and public companies.
+                        Our solutions: Internet-based applications,
                         mobile applications,consultancy services,
-                        systems integration. We believe in world-
-                        class software solutions that suit
-                        organizational backlogs.
+                        systems integration.
+                     </p>  
 
-                    </p>
-                    <hr class="rule">
+                     <hr class="rule">
+                   
 
                 </div>
                 <div class="service">
@@ -74,18 +71,17 @@
                     <hr class="title">
 
                     <p>
-                        Responsive and mobile web design
-                        Web app UI design
+                        We build intuitive and moble responsive web design
+                        Web api and app UI design
                         Company and product sites
-                        Website reviews
+                        and Website reviews
                         <span>
-                            mobile applications,consultancy services,
-                            systems integration. We believe in world-
-                            class software solutions that suit
-                            organizational backlogs.
-                        </span>
+                           We build world class mobile applications and 
+                           solutions that caters for organizational backlogs.
+                         </span>   
+                      </p>  
 
-                    </p>
+                    
                     <hr class="rule">
 
                 </div>
@@ -95,18 +91,12 @@
                     <hr class="title">
 
                     <p>
-
                         We train and support newbie developers
                         to become giants in the tech space, in an
-                        effort to help build their dreams.
-                        <span>
-                            mobile applications,consultancy services,
-                            systems integration. We believe in world-
-                            class software solutions that suit
-                            organizational backlogs.
-                        </span>
-
-                    </p>
+                        effort to help build their dreams and expand the continent workforce.
+                        
+                     </p>   
+                    
                     <hr class="rule">
 
                 </div>
@@ -116,21 +106,16 @@
                     <hr class="title">
 
                     <p>
-                        Content strategy,
-                        Digital copywriting
-                        Tone of voice. Content reviews.
-                        <span>
-                            mobile applications,consultancy services,
-                            systems integration. We believe in world-
-                            class software solutions that suit
-                            organizational backlogs.
-                            class software solutions that suit
-                        </span>
-
-
-
+                        We create immersive digital content. 
+                        Digital media Content strategy
+                        Digital copywriting.
+                        Tone of voice and content reviews.
                     </p>
-                    <hr class="rule">
+
+                 <hr class="rule">
+
+                    
+                    
 
                 </div>
             </div>
