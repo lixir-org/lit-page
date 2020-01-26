@@ -62,32 +62,45 @@
                         <aside>
                             <img src="images/Vector (6).png" alt="software development">
                             <h4>Software Development</h4>
-                            <p>We are a technology first comapny with focus on software solutions,
-                                Internet-based applications,
-                                mobile applications, consultancy services and
-                                systems integration. We build world-class software solutions for 
-                                organizational backlogs.</p>
+                            
+                            <p>
+                                We are a technology first comapny with focus on innovative tech solutions,
+                                Our solutins spans across enterprise architecture, Internet-based applications,
+                                mobile applications, consultancy services and systems integration. 
+                                We build world-class software solutions to cater for organizational backlogs.
+                            
+                            </p>        
+                           
+                            
                         </aside>
                         <aside>
                             <img src="images/Vector (5).png" alt="web Design">
                             <h4>Web Devolopment</h4>
-                            <p>Web api,app UI/UX design
-                                Company and product sites
-                                Website reviews</p>
+                            <p>
+                                Intuitive and resposive web development.
+                                Web api, app UI/UX design
+                                Company and product web servies and desings
+                            </p>
                         </aside>
                         <aside>
                             <img src="images/Vector (8).png" alt="Training and Support">
                             <h4>Training and Support</h4>
-                            <p>We train and support newbie developers
-                                to become giants in the tech space, in an
-                                effort to help build their dreams.</p>
+                            <p>
+                                We train and support newbies and entry level developers
+                                through their career path till they become giants in the tech space. 
+                                In an effort to expand the continent workforce.
+                            </p>
                         </aside>
                         <aside>
                             <img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
-                            <p>Digital Content Creation and strategy,
+                              
+                            <p>
+                                We create immersive digital content for coporates.
+                                Digital Content Creation and strategy,
                                 Digital copywriting
-                                Tone of voice. Content reviews.</p>
+                                Tone of voice and content reviews.
+                            </p>
                         </aside>
                     </article>
                 </section>
