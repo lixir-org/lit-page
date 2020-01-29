@@ -111,6 +111,7 @@ footer {
 footer a {
   color: white;
   margin: 0 20px;
+  display: block;
 }
 
 footer .footer_content {
@@ -121,12 +122,17 @@ footer .footer_content--one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 20px 0;
 }
 
 footer .footer_content--two {
@@ -140,6 +146,7 @@ footer .footer_content--two a {
   border: 1px solid white;
   width: 60px;
   height: 60px;
+  display: block;
   font-size: 30px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -168,12 +175,17 @@ footer .contact P a {
   margin-left: 5px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 770px) {
   footer .footer_content--one {
     margin-bottom: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  footer .footer_content--one a:nth-child(2) {
-    display: none;
+  footer .footer_content--one a {
+    display: block;
+    margin: 10px 0;
   }
   footer .footer_content--two {
     width: 80%;

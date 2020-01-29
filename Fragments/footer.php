@@ -2,9 +2,9 @@
 <footer class="">
     <section class="footer_content">
         <section class="footer_content--one">
+            <a href="index">Home</a>
             <a href="about-us.php" class="">About Us</a>
-            <a href="index.php" class="">
-                <img src="images/footer_logo.png" alt="" width="100px" height="100px"></a>
+            <a href="lixir-blog.php" class="">Our Blog</a>
             <a href="contact-us.php" class="">Contact Us</a>
         </section>
         <section class="footer_content--two">
