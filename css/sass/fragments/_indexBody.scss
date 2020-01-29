@@ -169,14 +169,17 @@
         top: 35%;
       }
       &__container {
-        height: 450px;
         text-align: center;
         padding: 50px 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
 
         &__slide {
-          width: 49%;
-          height: 100%;
+          width: 100%;
+          min-height: 400px;
           display: inline-block;
+
 
           .img_container {
             border: 1px solid $secondary_text;
@@ -389,6 +392,8 @@
       &__container {
         padding: 20px !important;
         height: auto !important;
+        display: grid;
+        grid-template-columns: 1fr !important;
         &__slide {
           width: 100% !important;
         }

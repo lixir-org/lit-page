@@ -26,7 +26,7 @@
                         <img src="images/banner3.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner2.jpg" alt="">
+                        <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner4.jpg" alt="">
@@ -62,16 +62,16 @@
                         <aside>
                             <img src="images/Vector (6).png" alt="software development">
                             <h4>Software Development</h4>
-                            
+
                             <p>
                                 We are a technology first comapny with focus on innovative tech solutions,
                                 Our solutins spans across enterprise architecture, Internet-based applications,
-                                mobile applications, consultancy services and systems integration. 
+                                mobile applications, consultancy services and systems integration.
                                 We build world-class software solutions to cater for organizational backlogs.
-                            
-                            </p>        
-                           
-                            
+
+                            </p>
+
+
                         </aside>
                         <aside>
                             <img src="images/Vector (5).png" alt="web Design">
@@ -87,14 +87,14 @@
                             <h4>Training and Support</h4>
                             <p>
                                 We train and support newbies and entry level developers
-                                through their career path till they become giants in the tech space. 
+                                through their career path till they become giants in the tech space.
                                 In an effort to expand the continent workforce.
                             </p>
                         </aside>
                         <aside>
                             <img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
-                              
+
                             <p>
                                 We create immersive digital content for coporates.
                                 Digital Content Creation and strategy,
@@ -110,7 +110,7 @@
                 <h3>Our Featured Works</h3>
                 <article>
                     <div class="carousel">
-                        <i class="fa fa-angle-left control control--left"></i>
+                        <!-- <i class="fa fa-angle-left control control--left"></i> -->
                         <div class="carousel__container">
                             <div class="carousel__container__slide">
                                 <div class="img_container">
@@ -118,23 +118,28 @@
                                 </div>
                                 <p>Mathisi Mini Classroom</p>
 
-<p>Mathisi Mini Classroom is a virtual learning platform for focused studies.
-Majorly important subjects High School Students must be excellent at in other to excel and to move to the next class or write School Certificate Exams at Junior and Senior Levels. 
-All the subjects on Mathisi are based on the Nigerian National Secondary School Curriculum and have been vetted to ensure that only the highest teaching standards are deployed on the platform.
-</p>
-                                <a href="mathisi-classroom/index.html">View Project</a>
+                                <p>Mathisi Mini Classroom is a virtual learning platform for focused studies.
+                                    Majorly important subjects High School Students must be excellent at in other to
+                                    excel and to move to the next class or write School Certificate Exams at Junior and
+                                    Senior Levels.
+                                    All the subjects on Mathisi are based on the Nigerian National Secondary School
+                                    Curriculum and have been vetted to ensure that only the highest teaching standards
+                                    are deployed on the platform.
+                                </p>
+                                <!-- <a href="mathisi-classroom/index.html">View Project</a> -->
 
                             </div>
                             <div class="carousel__container__slide">
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>
-                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for enterprise</p>
-                                <a href="">View Project</a>
+                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for
+                                    enterprise</p>
+                                <!-- <a href="">View Project</a> -->
                             </div>
 
                         </div>
-                        <i class="fa fa-angle-right control control--right"></i>
+                        <!-- <i class="fa fa-angle-right control control--right"></i> -->
 
                     </div>
                 </article>

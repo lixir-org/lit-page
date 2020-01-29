@@ -225,14 +225,19 @@ img {
 }
 
 .row3 article .carousel__container {
-  height: 450px;
   text-align: center;
   padding: 50px 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
 }
 
 .row3 article .carousel__container__slide {
-  width: 49%;
-  height: 100%;
+  width: 100%;
+  min-height: 400px;
   display: inline-block;
 }
 
@@ -441,6 +446,10 @@ img {
   .row3 .carousel__container {
     padding: 20px !important;
     height: auto !important;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
   }
   .row3 .carousel__container__slide {
     width: 100% !important;

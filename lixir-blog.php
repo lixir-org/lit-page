@@ -19,10 +19,10 @@
         <section class="blog-body">
             <aside class="blog-body_aside">
                 <section class="search-blog">
-                    <form action="">
+                    <!-- <form action="">
                         <input name="paramter" type="text" placeholder="Search blog...">
                         <button><i class="fa fa-search"></i></button>
-                    </form>
+                    </form> -->
                 </section>
                 <section class="advert-container">
                     <articcle class="advert-container_post">
@@ -30,7 +30,7 @@
                     </articcle>
                 </section>
 
-                <section class="post-article">
+                <!-- <section class="post-article">
                     <h3>Post an Article <i class="fa fa-plus control"></i></h3>
                     <form action="
                     ">
@@ -53,7 +53,7 @@
 
                         <button>Submit Article</button>
                     </form>
-                </section>
+                </section> -->
             </aside>
             <section class="blog-body_content">
                 <article class="blog-post">
