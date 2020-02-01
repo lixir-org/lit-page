@@ -40,7 +40,7 @@
                 <i class="fa fa-angle-right control control--right"></i>
             </section>
             <section class="row2">
-                <div class="log_details">
+                <div class="log_details animateTop">
                     <article class="log_details_container">
                         <aside>
                             <h4>100</h4>
@@ -59,7 +59,7 @@
                 <section class="services">
                     <h1>What We DO</h1>
                     <article>
-                        <aside>
+                        <aside class="">
                             <img src="images/Vector (6).png" alt="software development">
                             <h4>Software Development</h4>
 
@@ -73,7 +73,7 @@
 
 
                         </aside>
-                        <aside>
+                        <aside class="">
                             <img src="images/Vector (5).png" alt="web Design">
                             <h4>Web Devolopment</h4>
                             <p>
@@ -82,7 +82,7 @@
                                 Company and product web servies and desings
                             </p>
                         </aside>
-                        <aside>
+                        <aside class="">
                             <img src="images/Vector (8).png" alt="Training and Support">
                             <h4>Training and Support</h4>
                             <p>
@@ -91,7 +91,7 @@
                                 In an effort to expand the continent workforce.
                             </p>
                         </aside>
-                        <aside>
+                        <aside class="">
                             <img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
 
@@ -112,7 +112,7 @@
                     <div class="carousel">
                         <!-- <i class="fa fa-angle-left control control--left"></i> -->
                         <div class="carousel__container">
-                            <div class="carousel__container__slide">
+                            <div class="carousel__container__slide animateRight">
                                 <div class="img_container">
                                     <img src="images/malthisi.jpg" alt="mathisi">
                                 </div>
@@ -129,7 +129,7 @@
                                 <!-- <a href="mathisi-classroom/index.html">View Project</a> -->
 
                             </div>
-                            <div class="carousel__container__slide">
+                            <div class="carousel__container__slide animateLeft">
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>

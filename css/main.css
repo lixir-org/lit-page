@@ -27,6 +27,99 @@ img {
      object-fit: contain;
 }
 
+@-webkit-keyframes animateTop {
+  0% {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes animateTop {
+  0% {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes animateRight {
+  0% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes animateRight {
+  0% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes animateLeft {
+  0% {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes animateLeft {
+  0% {
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.animateTop {
+  -webkit-animation-name: animateTop;
+          animation-name: animateTop;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.animateLeft {
+  -webkit-animation-name: animateLeft;
+          animation-name: animateLeft;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.animateRight {
+  -webkit-animation-name: animateRight;
+          animation-name: animateRight;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
 .control {
   font-size: 30px;
   position: absolute;
@@ -159,8 +252,8 @@ img {
   line-height: 24px;
   height: 0;
   overflow: hidden;
-  -webkit-transition: height .7s ease-in-out;
-  transition: height .7s ease-in-out;
+  -webkit-transition: height 0.7s ease-in-out;
+  transition: height 0.7s ease-in-out;
 }
 
 .row2 .services {

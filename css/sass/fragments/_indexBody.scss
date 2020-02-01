@@ -1,3 +1,47 @@
+@keyframes animateTop {
+  0% {
+    transform: translateY(200px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes animateRight {
+  0% {
+    transform: translateX(-200px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animateLeft {
+  0% {
+    transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.animateTop {
+  animation-name: animateTop;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+.animateLeft {
+  animation-name: animateLeft;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+.animateRight {
+  animation-name: animateRight;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+
 .control {
   font-size: 30px;
   position: absolute;
@@ -47,7 +91,7 @@
 
   .cta {
     background-color: #cecece;
-    width: 400px ;
+    width: 400px;
     height: 150px;
     padding: 0 20px;
     display: flex;
@@ -108,8 +152,8 @@
         font-size: 16px;
         line-height: 24px;
         height: 0;
-        overflow:hidden;
-        transition: height .7s ease-in-out;
+        overflow: hidden;
+        transition: height 0.7s ease-in-out;
       }
     }
   }
@@ -180,7 +224,6 @@
           min-height: 400px;
           display: inline-block;
 
-
           .img_container {
             border: 1px solid $secondary_text;
             width: 300px;
@@ -232,8 +275,8 @@
       font-size: 20px;
       cursor: pointer;
     }
-    i:hover{
-      transform: scale(.7);
+    i:hover {
+      transform: scale(0.7);
     }
   }
   .team-carousel {
@@ -253,9 +296,8 @@
       img {
         min-width: 250px;
         height: 200px;
-        object-fit: cover;  
-        padding-right: 20px;    
-
+        object-fit: cover;
+        padding-right: 20px;
       }
       span {
         display: block;
@@ -266,14 +308,13 @@
           font-size: 14px;
           line-height: 21px;
         }
-        p:first-child{
+        p:first-child {
           font-weight: bold;
           font-size: 22px;
           line-height: 30px;
         }
       }
     }
-
 
     .t-active {
       left: 0% !important;
@@ -284,22 +325,21 @@
     width: 1px;
     height: 5px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
     width: 5px;
   }
-   
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: $brand_color; 
+    background: $brand_color;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: darkblue; 
-    
+    background: darkblue;
   }
 }
 
@@ -348,13 +388,13 @@
   .row4 {
     .team-carousel {
       height: 400px;
-      &_slide{
+      &_slide {
         display: block;
-        img{
+        img {
           width: 95%;
         }
-        span{
-         width: 100%;
+        span {
+          width: 100%;
         }
       }
     }
