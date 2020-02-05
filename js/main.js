@@ -47,8 +47,13 @@ function automateSlider() {
                 }
             }
         }
-        setInterval(automateSlider, 10000);
-        //banner slider
+        setInterval(automateSlider, 100);
+
+
+
+
+
+        //control banner slider
         $(".control").click(function () {
             let active_slide = $(".carousel1 .active");
             let next_slide = active_slide.next();
@@ -77,7 +82,7 @@ function automateSlider() {
             }
         })
 
-        // console.log(($(".team-carousel")[0]).scrollWidth)
+        // Control team slider
         $(".controlT").click(function () {
             let obj = $(".team-carousel")[0];
             if ($(this).hasClass("control_left")) {
@@ -107,7 +112,9 @@ function automateSlider() {
         }
     }
 }
-setInterval(automateSlider, 10000);
+// setInterval(automateSlider, 100);
+
+
 //banner slider
 $(".control").click(function () {
     let active_slide = $(".carousel1 .active");
@@ -134,7 +141,8 @@ $(".control").click(function () {
     }
 })
 
-// console.log(($(".team-carousel")[0]).scrollWidth)
+
+// Control on team slider
 $(".controlT").click(function () {
     let obj = $(".team-carousel")[0];
     if ($(this).hasClass("control_left")) {
@@ -145,6 +153,8 @@ $(".controlT").click(function () {
     }
 })
 
+
+//Auto slide on team container
 setInterval(() => {
     let obj = $(".team-carousel")[0];
     obj.scrollLeft += 300;

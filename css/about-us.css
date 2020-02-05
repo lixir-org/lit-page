@@ -41,8 +41,11 @@ body .about {
   text-align: center;
   text-transform: uppercase;
   font-size: 25px;
-  height: 400px;
+  height: 500px;
   background-image: url("../images/banner2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body .about h1 {

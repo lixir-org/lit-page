@@ -23,10 +23,10 @@
                 </div>
                 <div class="carousel1">
                     <div class="carousel1_slide active slide1">
-                        <img src="images/banner3.jpg" alt="">
+                        <img src="images/banner1.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
-                        <img src="images/banner1.jpg" alt="">
+                        <img src="images/banner2.jpg" alt="">
                     </div>
                     <div class="carousel1_slide">
                         <img src="images/banner4.jpg" alt="">
