@@ -55,7 +55,8 @@
                         We are a technology first company with focus
                         on innovative software solutions, 
                         for early stage and public companies.
-                        <b>Our solutions<\b>: Internet-based applications,
+                        <b>Our solutions:</b>
+ Internet-based applications,
                         mobile applications, enterprise architect softwares, consultancy      services, solution selling and systems integration.
                      </p>  
 
