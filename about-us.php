@@ -25,7 +25,7 @@
         <div class="profile">
             <h2 class="">Company Profile</h3>
                 <p class="">
-                    Lixir is technology forward company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AI, AR, VR devs & content creators.
+                    Lixir is a technology forward company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AI, AR, VR devs & content creators.
                 </p>
                 <p >We are a company poised with these things in our very core;
                     <ol class="core-values">
