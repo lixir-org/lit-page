@@ -17,9 +17,9 @@
         <section class="contact">
             <p>
             <span>
-            <i class="fa fa-envelope"> </i>:<a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
+            <i class="fa fa-envelope"> </i> <a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
             </span> <br>
-            <span><i class="fa fa-phone"> </i> (+234)9021022337 </p>
+            <span><i class="fa fa-phone"> </i> <a href="call: (+234)9021022337 </p>
             </span> 
             <p> &copy; 2020 Lixir Tech. All Rights Reseeved. </p>
         </section>
