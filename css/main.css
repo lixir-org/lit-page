@@ -156,8 +156,9 @@ img {
   z-index: -1;
   left: 100%;
   position: absolute;
-  -webkit-transition: left 0.5s ease-in-out;
-  transition: left 0.5s ease-in-out;
+  scroll-behavior: smooth;
+  -webkit-transition: left 1s ease-in-out;
+  transition: left 1s ease-in-out;
 }
 
 .row1 .carousel1_slide img {
