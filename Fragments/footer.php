@@ -21,7 +21,7 @@
             </span> <br>
             <span><i class="fa fa-phone"> </i> <a href="call: {+234}9021022337">{+234}9021022337</a> </p>
             </span> 
-            <p> &copy; 2020 Lixir Tech. All Rights Reseeved. </p>
+            <p> &copy; 2020 Lixir Tech. All Rights Reserved. </p>
         </section>
     </section>
 </footer>
