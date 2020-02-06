@@ -43,7 +43,7 @@
                 <div class="log_details animateTop">
                     <article class="log_details_container">
                         <aside>
-                            <h4>100</h4>
+                            <h4>100+</h4>
                             <p>Customers</p>
                         </aside>
                         <aside>
@@ -51,7 +51,7 @@
                             <p>Recommendations Reviews</p>
                         </aside>
                         <aside>
-                            <h4>433</h4>
+                            <h4>289</h4>
                             <p>Sucess Stories</p>
                         </aside>
                     </article>
@@ -64,10 +64,8 @@
                             <h4>Software Development</h4>
 
                             <p>
-                                We are a technology first comapny with focus on innovative tech solutions,
-                                Our solutins spans across enterprise architecture, Internet-based applications,
-                                mobile applications, consultancy services and systems integration.
-                                We build world-class software solutions to cater for organizational backlogs.
+                                We are a technology first comapny with focus on innovative tech solutions, Our solutins spans enterprise architecture, Internet based applications, mobile applications, consultancy services, solution selling and systems integration. 
+We build world-class software solutions to cater for organizational backlogs.
 
                             </p>
 
@@ -77,9 +75,8 @@
                             <img src="images/Vector (5).png" alt="web Design">
                             <h4>Web Devolopment</h4>
                             <p>
-                                Intuitive and resposive web development.
-                                Web api, app UI/UX design
-                                Company and product web servies and desings
+                                UI/UX designs, intuitive and resposive web apps,
+                                Web api, Company and product web servies.
                             </p>
                         </aside>
                         <aside class="">
@@ -87,18 +84,18 @@
                             <h4>Training and Support</h4>
                             <p>
                                 We train and support newbies and entry level developers
-                                through their career path till they become giants in the tech space.
-                                In an effort to expand the continent workforce.
+                                through their career path till they become giants in the tech space. In an effort to increase the continent workforce.
                             </p>
                         </aside>
                         <aside class="">
-                            <img src="images/Vector (7).png" alt="Content">
+
+<img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
 
                             <p>
-                                We create immersive digital content for coporates.
-                                Digital Content Creation and strategy,
-                                Digital copywriting
+                                We create immersive media content for coporates.
+                                Digital Content strategy.
+                                Digital copywriting.
                                 Tone of voice and content reviews.
                             </p>
                         </aside>
@@ -133,8 +130,7 @@
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>
-                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for
-                                    enterprise</p>
+                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for enterprise</p>
                                 <!-- <a href="">View Project</a> -->
                             </div>
 
@@ -153,7 +149,7 @@
                         <img src="images/team/team0.png" alt="user1">
                         <span>
                             <p>Godwin <br> Ikott</p>
-                            <p>Founder</p>
+                            <p>CEO/Founder</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
@@ -174,7 +170,8 @@
                         <img src="images/team/team7.jpeg" alt="user2">
                         <span>
                             <p>Emmanuel <br> Owojori</p>
-                            <p>Quality Technologist</p>
+
+<p>Quality Technologist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">
