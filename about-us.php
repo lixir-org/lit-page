@@ -119,7 +119,7 @@
         </div>
         <div class="section">
             <h2>Take your business forward</h2>
-            <a href="project-request.php"><button>Start A Project</button></a>
+            <a href="project-request.php"><button>Begin Now</button></a>
             <hr>
         </div>
     </section>

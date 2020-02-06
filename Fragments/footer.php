@@ -2,7 +2,7 @@
 <footer class="">
     <section class="footer_content">
         <section class="footer_content--one">
-            <a href="index">Home</a>
+            <a href="index.php" class="">Home</a>
             <a href="about-us.php" class="">About Us</a>
             <a href="lixir-blog.php" class="">Our Blog</a>
             <a href="contact-us.php" class="">Contact Us</a>
@@ -21,7 +21,7 @@
             </span> <br>
             <span><i class="fa fa-phone"> </i> <a href="call: {+234}9021022337">{+234}9021022337</a> </p>
             </span> 
-            <p> &copy; 2020 Lixir Tech. All Rights Reseeved. </p>
+            <p> &copy; 2020 Lixir Tech. All Rights Reserved. </p>
         </section>
     </section>
 </footer>
