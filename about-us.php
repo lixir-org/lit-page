@@ -24,21 +24,20 @@
         <div class="profile">
             <h2 class="">Company Profile</h3>
                 <p class="">
-                    Lixir is technology forward company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AR, VR devs & content creators.
+                    Lixir is technology forward company with a group of agile talents from diverse backgrounds as UX/UI, Digital Marketing, Web, Mobile and Software Devs, IOT devs, AI, AR, VR devs & content creators.
                 </p>
-                <p >We are a company poised with these core things at it nucleus;
+                <p >We are a company poised with these things in our very core;
                     <ol class="core-values">
-                        <li>Innovative tech solutions to enhance the way we live, work & play</li>
-                        <li>Efficiency innovations to optimize business operations, enhance growth and </li>
-                        <li>Reduce/eliminate friction between businesses and people.</li>
+                        <li>Innovative tech solutions to enhance how we live, work & play</li>
+                        <li>Efficiency innovations to optimize processes, enhance growth, reduce and eliminate friction between businesses and people.</li>
+                        <li>Smoothen disruption and improve well being.</li>
                     </ol>
                 </p>
-                <p> We are a distributed glocal team with technological innovations and human expertise deployed to position the continent in the global market value to the
+                <p> We are a distributed glocal team with technological innovations and human expertise hoisted to position the continent in the global market.
                     </p>
                 <aside class="card">
                     <h3>Our Mission</h3>
-                    <p class="">To augment the standcard of livivng, ease of doing business and to create shared prosperity in the continent between the supplychain
-                      and the burgeoning demand side with the use of radical and incremental innovative technologies.              
+                    <p class="">To create shared prosperity in the continent between the supplychain and the burgeoning demand side with the use of radical and incremental innovative technologies.              
                     </p>
                 </aside>
 
@@ -54,11 +53,10 @@
 
                     <p>
                         We are a technology first company with focus
-                        on innovativ software solutions, 
+                        on innovative software solutions, 
                         for early stage and public companies.
-                        Our solutions: Internet-based applications,
-                        mobile applications,consultancy services,
-                        systems integration.
+                        <b>Our solutions<\b>: Internet-based applications,
+                        mobile applications, enterprise architect softwares, consultancy      services, solution selling and systems integration.
                      </p>  
 
                      <hr class="rule">
@@ -71,10 +69,9 @@
                     <hr class="title">
 
                     <p>
-                        We build intuitive and moble responsive web design
-                        Web api and app UI design
-                        Company and product sites
-                        and Website reviews
+                        UX/UI design, intuitive and moble responsive web apps
+                        Web api, Company and product sites
+                        and Website reviews.
                         <span>
                            We build world class mobile applications and 
                            solutions that caters for organizational backlogs.
@@ -92,10 +89,9 @@
 
                     <p>
                         We train and support newbie developers
-                        to become giants in the tech space, in an
-                        effort to help build their dreams and expand the continent workforce.
+                        to become giants in the tech space, in an effort to help build their dreams and increase the continent workforce.
                         
-                     </p>   
+                    </p>   
                     
                     <hr class="rule">
 
@@ -106,8 +102,8 @@
                     <hr class="title">
 
                     <p>
-                        We create immersive digital content. 
-                        Digital media Content strategy
+                        We create immersive media content. 
+                        Digital media Content strategy.
                         Digital copywriting.
                         Tone of voice and content reviews.
                     </p>
@@ -132,3 +128,86 @@
 </body>
 
 </html>
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+        
+                 
+                
+                         
+                    
+         
+                
+   
+         
+                    
+                                  
+  
+              
+              
+   
+        
+            
+                
+                    
+                    
+                    
+
+            
+                        
+                         
+                        
+                        
+
+                        
+               
+
+                     
+                   
+
+           
+                
+                    
+                    
+                    
+
+                                                                                                                                       
+                    
+
+                
+                    
+                    
+                    
+
+                        
+                                             
+                 
+                    
+                    
+
+           
+                
+              
+               
+
+                         
+                        
+                        
+                        
+             
+
+                 
+
+                                           
+      
+   
+
+    
