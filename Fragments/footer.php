@@ -11,15 +11,15 @@
             <a href="https://wa.me/2349021022337"><i class="fab fa-whatsapp"></i></a>
             <a href="https://www.instagram.com/lixir_tech"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com/Lixir_Tech?s=08"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/lixir-tech-8ba46419b><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/lixir-tech-8ba46419b"><i class="fab fa-linkedin"></i></a>
         </section>
         <br />
         <section class="contact">
             <p>
-            <span
-            ><i class="fa fa-envelope"> </i>:<a href="mailto: biz@lixir.com.ng">biz@lixir.com.ng</a>
+            <span>
+            <i class="fa fa-envelope"> </i>:<a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
             </span> <br>
-            <span><i class="fa fa-phone"> </i>:<a href="call: (+234)9021022337</a> </p>
+            <span><i class="fa fa-phone"> </i> (+234)9021022337 </p>
             </span> 
             <p> &copy; 2020 Lixir Tech. All Rights Reseeved. </p>
         </section>
