@@ -8,6 +8,7 @@
     <title>Home | Lixir</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel='icon' href='./images/brand_logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -68,8 +69,10 @@
                             <h4>Software Development</h4>
 
                             <p>
-                                We are a technology first comapny with focus on innovative tech solutions, Our solutins spans enterprise architecture, Internet based applications, mobile applications, consultancy services, solution selling and systems integration. 
-We build world-class software solutions to cater for organizational backlogs.
+                                We are a technology first comapny with focus on innovative tech solutions, Our solutins
+                                spans enterprise architecture, Internet based applications, mobile applications,
+                                consultancy services, solution selling and systems integration.
+                                We build world-class software solutions to cater for organizational backlogs.
 
                             </p>
 
@@ -88,12 +91,13 @@ We build world-class software solutions to cater for organizational backlogs.
                             <h4>Training and Support</h4>
                             <p>
                                 We train and support newbies and entry level developers
-                                through their career path till they become giants in the tech space. In an effort to increase the continent workforce.
+                                through their career path till they become giants in the tech space. In an effort to
+                                increase the continent workforce.
                             </p>
                         </aside>
                         <aside class="">
 
-<img src="images/Vector (7).png" alt="Content">
+                            <img src="images/Vector (7).png" alt="Content">
                             <h4>Content</h4>
 
                             <p>
@@ -134,7 +138,8 @@ We build world-class software solutions to cater for organizational backlogs.
                                 <div class="img_container">
                                     <img src="images/buzzdona.jpg" alt=""></div>
                                 <p>Buzz Donna</p>
-                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for enterprise</p>
+                                <p>Buzz Donna is a web integrated chatbot one of our business efficiency product for
+                                    enterprise</p>
                                 <!-- <a href="">View Project</a> -->
                             </div>
 
@@ -175,7 +180,7 @@ We build world-class software solutions to cater for organizational backlogs.
                         <span>
                             <p>Emmanuel <br> Owojori</p>
 
-<p>Quality Technologist</p>
+                            <p>Quality Technologist</p>
                         </span>
                     </aside>
                     <aside class="team-carousel_slide">

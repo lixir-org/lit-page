@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel='icon' href='./images/brand_logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/about-us.css">
 
 </head>

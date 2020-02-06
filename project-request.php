@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project Request Form</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel='icon' href='./images/brand_logo.png' type='image/x-icon'/>
     <link rel="stylesheet" href="css/project-request.css">
 </head>
 
