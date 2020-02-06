@@ -118,8 +118,8 @@
             </div>
         </div>
         <div class="section">
-            <h2>Take your business forward</h2>
-            <a href="project-request.php"><button>Begin Now</button></a>
+            <h2>Let's take your business forward</h2>
+            <a href="project-request.php"><button>Request A Project Now</button></a>
             <hr>
         </div>
     </section>
