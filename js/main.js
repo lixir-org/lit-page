@@ -13,15 +13,17 @@ $(".log_details_container h4").on("mouseleave", function () {
 
 //Slider config
 let init = 0;
-let slides = document.getElementsByClassName("carousel1_slide");
-let clone1 = $([...slides]).clone(true);
-let clone2 = $([...slides]).clone(true);
-($(clone1[0]).removeClass("active"));
-($(clone2[0]).removeClass("active"));
-$(clone1).appendTo(".carousel1");
-$(clone2).appendTo(".carousel1");
-let slide_stack = $(".carousel1_slide").length;
+function slideBanner() {
+    let slides = document.getElementsByClassName("carousel1_slide");
+    let clone1 = $([...slides]).clone(true);
+    ($(clone1[0]).removeClass("active"));
+    $(clone1).appendTo(".carousel1");
+}
+for(let i =0; i< 3; i++){
+    slideBanner()
+}
 
+let slide_stack = $(".carousel1_slide").length;
 function automateSlider() {
     let browserWidth = document.body.clientWidth;
     if (browserWidth < 600) {
@@ -77,8 +79,20 @@ $(".control").click(function () {
 
 
 // Control on team slider
+function slideT() {
+    let team_slides = document.getElementsByClassName("team-carousel_slide");
+    let cloneT = $([...team_slides]).clone(true);
+    ($(cloneT[0]).removeClass("t-active"));
+    $(cloneT).appendTo(".team-carousel");
+}
+for (let i = 0; i < 2; i++) {
+    slideT()
+}
+
+
 $(".controlT").click(function () {
     let obj = $(".team-carousel")[0];
+    $("team-carousel")
     if ($(this).hasClass("control_left")) {
         obj.scrollLeft -= 300;
     }

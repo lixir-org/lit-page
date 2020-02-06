@@ -406,6 +406,8 @@ img {
   margin-top: 40px;
   overflow: scroll;
   scroll-behavior: smooth;
+  -webkit-transition: scroll-behavior 1s;
+  transition: scroll-behavior 1s;
   overflow-y: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,7 +462,7 @@ img {
 }
 
 .row4 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: transparent;
   width: 5px;
 }
 
@@ -469,7 +471,7 @@ img {
 }
 
 .row4 ::-webkit-scrollbar-thumb:hover {
-  background: darkblue;
+  background: transparent;
 }
 
 @media screen and (max-width: 450px) {

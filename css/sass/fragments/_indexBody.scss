@@ -286,6 +286,7 @@
     margin-top: 40px;
     overflow: scroll;
     scroll-behavior: smooth;
+    transition: scroll-behavior 1s;
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
@@ -329,7 +330,7 @@
 
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: transparent;
     width: 5px;
   }
 
@@ -340,7 +341,7 @@
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: darkblue;
+    background: transparent;
   }
 }
 
