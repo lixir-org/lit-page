@@ -46,7 +46,7 @@ function automateSlider() {
 }
 
 
-setInterval(automateSlider, 5000);
+setInterval(automateSlider, 8000);
 
 
 //banner slider
