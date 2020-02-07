@@ -25,6 +25,7 @@ a:hover, button:hover {
 img {
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 5px;
 }
 
 @-webkit-keyframes animate {
@@ -201,7 +202,7 @@ main .blog-body_aside .post-article form .form-group textarea {
   padding: 5px 10px;
 }
 
-main .blog-body_aside .post-article form button {
+main .blog-body_aside .post-article form a {
   background-color: #0580b9;
   color: white;
   border: 1px solid #0580b9;
@@ -209,7 +210,7 @@ main .blog-body_aside .post-article form button {
   padding: 10px 30px;
 }
 
-main .blog-body_aside .post-article form button:hover {
+main .blog-body_aside .post-article form a:hover {
   background-color: transparent;
   color: #0580b9;
   -webkit-transform: scale(0.8);
@@ -261,16 +262,17 @@ main .blog-body_content .blog-post_text p.article-content {
   text-align: justify;
 }
 
-main .blog-body_content .blog-post_text button {
+main .blog-body_content .blog-post_text a.read_more {
   background-color: #0580b9;
   border: 1px solid #0580b9;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 10px;
+  border-radius: 5px;
 }
 
-main .blog-body_content .blog-post_text button:hover {
+main .blog-body_content .blog-post_text a:hover {
   background-color: transparent;
   -webkit-transform: scale(0.8);
           transform: scale(0.8);

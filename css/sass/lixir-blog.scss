@@ -118,14 +118,14 @@ main {
               padding: 5px 10px;
             }
           }
-          button {
+          a {
             background-color: $brand_color;
             color: white;
             border: 1px solid $brand_color;
             cursor: pointer;
             padding: 10px 30px;
           }
-          button:hover{
+          a:hover{
             background-color: transparent;
             color: $brand_color;
             transform: scale(.8);
@@ -172,15 +172,17 @@ main {
             margin: 10px 0;
             text-align: justify;
           }
-          button {
+          a.read_more {
             background-color: $brand_color;
             border: 1px solid $brand_color;
             color: white;
             padding: 10px 20px;
             cursor: pointer;
             margin-top: 10px;
+            border-radius: 5px;
+
           }
-          button:hover {
+          a:hover {
             background-color: transparent;
             transform: scale(0.8);
             color: $brand_color;
