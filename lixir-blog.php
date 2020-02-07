@@ -77,7 +77,7 @@
                             vel consequatur voluptatibus quos alias perferendis est! Adipisci eveniet exercitationem
                             impedit ut natus? Error ea fugiat sint, cumque sed consequuntur. Minima ut delectus facere
                         </p>
-                        <a href="./article.html" class="read_more">>> Read more</a>
+                        <a href="./article.php" class="read_more">>> Read more</a>
                     </div>
                 </article>
 
@@ -101,7 +101,7 @@
                             vel consequatur voluptatibus quos alias perferendis est! Adipisci eveniet exercitationem
                             impedit ut natus? Error ea fugiat sint, cumque sed consequuntur. Minima ut delectus facere
                         </p>
-                        <a href="./article.html" class="read_more">>> Read more</a>
+                        <a href="./article.php" class="read_more">>> Read more</a>
                     </div>
                 </article>
                 <article class="blog-post">
@@ -124,7 +124,7 @@
                             vel consequatur voluptatibus quos alias perferendis est! Adipisci eveniet exercitationem
                             impedit ut natus? Error ea fugiat sint, cumque sed consequuntur. Minima ut delectus facere
                         </p>
-                        <a href="./article.html" class="read_more">>> Read more</a>
+                        <a href="./article.php" class="read_more">>> Read more</a>
                     </div>
                 </article>
             </section>
