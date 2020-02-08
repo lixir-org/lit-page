@@ -19,7 +19,7 @@ function slideBanner() {
     ($(clone1[0]).removeClass("active"));
     $(clone1).appendTo(".carousel1");
 }
-for(let i =0; i< 3; i++){
+for(let i =0; i< 2; i++){
     slideBanner()
 }
 

@@ -8,6 +8,7 @@
     <title>Blog | Lixir</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel='icon' href='./images/brand_logo.png' type='image/x-icon'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/lixir-blog.css">
 </head>
 
@@ -59,7 +60,7 @@
             <section class="blog-body_content">
                 <article class="blog-post">
                     <div class="blog-post_image">
-                        <img src="./images/banner2.jpg" alt="">
+                        <img src="https://res.cloudinary.com/lixir/image/upload/v1581167540/Banners/banner2_klmlyp.jpg" alt="post picture">
                     </div>
                     <div class="blog-post_text">
                         <h3 class="article-title">Post heading</h3>
@@ -83,7 +84,7 @@
 
                 <article class="blog-post">
                     <div class="blog-post_image">
-                        <img src="./images/banner2.jpg" alt="">
+                    <img src="https://res.cloudinary.com/lixir/image/upload/v1581167540/Banners/banner2_klmlyp.jpg" alt="post picture">
                     </div>
                     <div class="blog-post_text">
                         <h3 class="article-title">Post heading</h3>
@@ -106,7 +107,7 @@
                 </article>
                 <article class="blog-post">
                     <div class="blog-post_image">
-                        <img src="./images/banner2.jpg" alt="">
+                    <img src="https://res.cloudinary.com/lixir/image/upload/v1581167540/Banners/banner2_klmlyp.jpg" alt="post picture">
                     </div>
                     <div class="blog-post_text">
                         <h3 class="article-title">Post heading</h3>
@@ -133,7 +134,6 @@
     </main>
     <?php require_once "./Fragments/footer.php" ?>
 </body>
-<script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="./js/lixir-blog.js"></script>
 
