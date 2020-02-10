@@ -17,7 +17,7 @@
         <section class="contact">
             <p>
             <span>
-            <i class="fa fa-envelope"> </i> <a href="mailto: biz@lixir.com">biz@lixir.com.ng</a>
+            <i class="fa fa-envelope"> </i> <a href="mailto: biz@lixir.com.ng">biz@lixir.com.ng</a>
             </span> <br>
             <span><i class="fas fa-mobile-alt"></i> <a href="call: (+234)9021022337">{+234}9021022337</a> </p>
             </span> 
