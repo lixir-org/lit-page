@@ -1,0 +1,61 @@
+@import './fragments/config';
+body {
+
+  main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+
+
+    .side_bar{
+        text-align: center;
+    }
+    section.article-body {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      &_content {
+        border: 1px solid rgb(214, 214, 214);
+        padding: 10px ;
+
+        .lead{
+            text-align: center;
+            margin: 50px 0;
+
+            h1{
+                font-size: 25px;
+                margin-bottom: 0;
+            }
+            a{
+                color: green;
+            }
+        }
+        .article_text{
+            .article-content{
+                text-align: justify;
+            }
+        }
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media screen and (min-width: 1000px) {
+  body {
+
+    main {
+      section.article-body {
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr;
+      }
+    }
+  }
+
+  body main img {
+    height: 500px;
+  }
+}

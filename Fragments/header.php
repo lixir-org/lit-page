@@ -4,13 +4,14 @@
     <nav>
         <i class="fa fa-bars"></i>
         <span class="nav_link">
-            <a href="index.php">Home</a>
-            <a href="project-request.php">New Project</a>
+            <a href="home">Home</a>
+            <a href="request-project">New Project</a>
         </span>
         <a class="logo" href="index.php"><img src="images/brand_logo.png" class="logoImg" alt=""></a>
         <span class="nav_link">
         <a href="about-us.php">About Us</a>
-        <a href="contact-us.php">Contact Us</a>
+        <a href="blog">Blog</a>
+        <a href="contact">Contact Us</a>
             <!-- <a href="#"><i class="fa fa-phone"></i></a> -->
         </span>
     </nav>

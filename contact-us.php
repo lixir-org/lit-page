@@ -1,3 +1,11 @@
+<?php 
+    include 'helpers/Format.php';
+    include 'classes/Contact.php';
+    
+    $msg = new Contact(); 
+    $fm = new Format();
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,20 +15,48 @@
     <title>Contact Us</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/contact-us.css">
+
+    <meta name="keywords" content="<?= KEYWORDS; ?>">
+	<meta name="description" content="<?= DESCRIPTION; ?>">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="180x180">
+	<link rel="icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="16x16" type="image/png">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="http://lixir.com.ng">
+	<meta name="twitter:creator" content="Lixir">
+	<meta name="twitter:title" content="<?= $fm->title(); ?>">
+	<meta name="twitter:description" content="<?= DESCRIPTION; ?>">
+	<meta name="twitter:image" content="http://lixir.com.ng/images/brand_logo.png">
+
+	<!-- Facebook & Whatsapp -->
+	<meta property="og:title" content="<?= $fm->title(); ?>">
+	<meta property="og:url" content="http://lixir.com.ng">
+	<meta property="og:description" content="<?= DESCRIPTION; ?>">
+	<meta property="og:image" content="http://lixir.com.ng/images/brand_logo.png">
+	<meta property="og:image:secure_url" content="http://lixir.com.ng/images/brand_logo.png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="200">
+	<meta property="og:image:alt" content="site-logo">
+	<meta property="og:type" content="website">
 </head>
 <body>
 <?php require_once "./Fragments/header.php" ?>
     <main>
-    <form class="form" action="send_contact.php" method="post">
+    <?php
+        if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
+            $sendmsg = $msg->sendMessage($_POST);
+        }
+    ?>
+    <form class="form" action="" method="post">
         <section class="form-container">
             <h1 class="text-center">Send us a message</h1>
             <?php
-                $url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-                if(strpos($url, 'sent') !== false){
-                    echo "<div style='color: green; font-size: 18px; font-weight: bold; padding: 20px;'>Message Sent Successfully!!!.</div>";
-                }
-                if(strpos($url, 'failed') !== false){
-                    echo "<div style='color: red; font-size: 18px; font-weight: bold; padding: 20px;'>Message Not Sent!!!<br> Please Try Again Later.</div>";
+                if (isset($sendmsg)) {
+                    echo $sendmsg;
                 }
             ?>
             <div class="form-group">

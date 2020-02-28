@@ -12,8 +12,11 @@ body {
     text-align: center;
     text-transform: uppercase;
       font-size: 25px;
-    height: 400px;
-    background-image: url("../images/banner2.jpg");
+    height: 500px;
+    background-image: url("https://res.cloudinary.com/lixir/image/upload/v1581167540/Banners/banner2_klmlyp.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     h1{
       background: #0580b9;

@@ -27,7 +27,7 @@
          //Sending Mail to Client.
         $defaultpath = '<img src="http://www.lixir.com.ng/assets/images/lixir_logo.png" width="50px" height="50px">';
 
-        $mail->setFrom("noreply@info.lixir@gmail.com", "Lixir");
+        $mail->setFrom("noreply@lixir.com.ng", "Lixir");
         $mail->addAddress($email, $name);
         $mail->isHTML(true);
         $mail->Subject = "Lixir Project Request";
@@ -63,17 +63,16 @@
         $mail2 = new PHPMailer();
         $mail2->setFrom($email, $cusName);
 
-        if(!empty($_POST['projFile'])) {
+        if(!empty($_FILES['projFile'])) {
             $permited = array('jpg', 'jpeg', 'png', 'gif', 'pdf');
-		  	$file_name = $file['projFile']['name'];
-		  	$file_size = $file['projFile']['size'];
-            $file_temp = $file['projFile']['tmp_name'];
+		  	$file_name = $_FILES['projFile']['name'];
+            $file_temp = $_FILES['projFile']['tmp_name'];
             
             $div = explode('.', $file_name);
             $file_ext = strtolower(end($div));
               
             if (in_array($file_ext, $permited) === false) {
-                header("Location: project-request.php?file-error");
+                header("Location: project-request.php?status=file-error");
                 die();
             }  else {
                 $attachment = $file_temp;
@@ -82,7 +81,7 @@
             }
         }
 
-        $mail2->addAddress("info.lixir@gmail.com", "Project Manager");
+        $mail2->addAddress("biz@lixir.com.ng", "Project Manager");
         $mail2->isHTML(true);
         $mail2->Subject = "New Project Request Alert";
         $mail2->Body = "
@@ -91,9 +90,9 @@
         $mail2->send();
 
         if ($mail && $mail2) {
-            header("Location: project-request.php?sent");
+            header("Location: project-request.php?status=sent");
         } else {
-            header("Location: project-request.php?failed");
+            header("Location: project-request.php?status=failed");
         }
     }
 ?>

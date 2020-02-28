@@ -1,3 +1,7 @@
+<?php 
+    include 'helpers/Format.php'; 
+    $fm = new Format();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lixir | Official Page</title>
+    <title><?= $fm->title(); ?></title>
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -13,7 +17,33 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/about-us.css">
 
-</head>
+    <meta name="keywords" content="<?= KEYWORDS; ?>">
+	<meta name="description" content="<?= DESCRIPTION; ?>">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="180x180">
+	<link rel="icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="32x32" type="image/png">
+	<link rel="icon" href="http://lixir.com.ng/images/brand_logo.png" sizes="16x16" type="image/png">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="http://lixir.com.ng">
+	<meta name="twitter:creator" content="Lixir">
+	<meta name="twitter:title" content="<?= $fm->title(); ?>">
+	<meta name="twitter:description" content="<?= DESCRIPTION; ?>">
+	<meta name="twitter:image" content="http://lixir.com.ng/images/brand_logo.png">
+
+	<!-- Facebook & Whatsapp -->
+	<meta property="og:title" content="<?= $fm->title(); ?>">
+	<meta property="og:url" content="http://lixir.com.ng">
+	<meta property="og:description" content="<?= DESCRIPTION; ?>">
+	<meta property="og:image" content="http://lixir.com.ng/images/brand_logo.png">
+	<meta property="og:image:secure_url" content="http://lixir.com.ng/images/brand_logo.png">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="200">
+	<meta property="og:image:alt" content="site-logo">
+	<meta property="og:type" content="website">
+</head> 
 
 <body>
     <?php require_once "./Fragments/header.php" ?>

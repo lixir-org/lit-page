@@ -7,13 +7,16 @@ footer {
   a {
     color: white;
     margin: 0 20px;
+    display: block;
   }
   .footer_content {
     padding: 0 50px;
     &--one {
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
+      padding: 20px 0;
     }
     &--two {
       border-top: 2px solid white;
@@ -24,6 +27,7 @@ footer {
         border: 1px solid white;
         width: 60px;
         height: 60px;
+        display: block;
         font-size: 30px;
         display: inline-flex;
         border-radius: 50%;
@@ -46,12 +50,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 770px) {
   footer {
     .footer_content--one {
       margin-bottom: 30px;
-      a:nth-child(2) {
-        display: none;
+      flex-direction: column;
+      a{
+        display: block;
+        margin: 10px 0;
       }
     }
 

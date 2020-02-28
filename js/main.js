@@ -8,19 +8,34 @@ $(".log_details_container h4").on("mouseleave", function () {
     $(this).next().css("height", "0")
 })
 
-let init = 0;
-let slide_stack = $(".carousel1_slide").length;
 
+
+
+//Slider config
+let init = 0;
+function slideBanner() {
+    let slides = document.getElementsByClassName("carousel1_slide");
+    let clone1 = $([...slides]).clone(true);
+    ($(clone1[0]).removeClass("active"));
+    $(clone1).appendTo(".carousel1");
+}
+for(let i =0; i< 2; i++){
+    slideBanner()
+}
+
+let slide_stack = $(".carousel1_slide").length;
 function automateSlider() {
     let browserWidth = document.body.clientWidth;
-    if (browserWidth < 770) {
+    if (browserWidth < 600) {
         return
     }
     else {
         if (init >= slide_stack - 1) {
+            $(".control--right").css("display", "none")
             return
         }
         else {
+            $(".control--left").css("display", "block")
             let active_slide = $(".carousel1 .active");
             let next_slide = active_slide.next();
             active_slide.css("left", "-100%").removeClass("active");
@@ -29,7 +44,11 @@ function automateSlider() {
         }
     }
 }
-setInterval(automateSlider, 10000);
+
+
+setInterval(automateSlider, 8000);
+
+
 //banner slider
 $(".control").click(function () {
     let active_slide = $(".carousel1 .active");
@@ -42,6 +61,8 @@ $(".control").click(function () {
         else {
             active_slide.css("left", "100%").removeClass("active")
             prev_slide.addClass("active");
+            $(".control--right").css("display", "block")
+
             init--
         }
     }
@@ -56,19 +77,44 @@ $(".control").click(function () {
     }
 })
 
-// console.log(($(".team-carousel")[0]).scrollWidth)
+
+// Control on team slider
+function slideT() {
+    let team_slides = document.getElementsByClassName("team-carousel_slide");
+    let cloneT = $([...team_slides]).clone(true);
+    ($(cloneT[0]).removeClass("t-active"));
+    $(cloneT).appendTo(".team-carousel");
+}
+for (let i = 0; i < 2; i++) {
+    slideT()
+}
+
+
 $(".controlT").click(function () {
     let obj = $(".team-carousel")[0];
+    $("team-carousel")
     if ($(this).hasClass("control_left")) {
-        obj.scrollLeft -= 200;
+        obj.scrollLeft -= 300;
     }
     else {
-        obj.scrollLeft += 200;
+        obj.scrollLeft += 300;
     }
 })
 
+
+//Auto slide on team container
 setInterval(() => {
     let obj = $(".team-carousel")[0];
     obj.scrollLeft += 300;
-    console.log(obj.offsetWidth)
 }, 10000);
+
+//Added animation
+document.body.onscroll = () => {
+    if (window.pageYOffset > 100) {
+        let box = $(".services aside");
+        $(box[0]).addClass("animateTop")
+        $(box[1]).addClass("animateLeft")
+        $(box[2]).addClass("animateRight")
+        $(box[3]).addClass("animateTop")
+    }
+}
